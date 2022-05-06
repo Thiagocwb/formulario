@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: linear-gradient(45deg, #8e2de2, #4a00e0);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form {
+    border: 8px solid white;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+}
+.imput-field input{
+    margin-bottom: 5px;
+    border: 2px solid rgb(226, 225, 225);
+    padding: 4px;
+    width: 100%;
+}
+.imput-field label{
+    font-size: 14px;
+    font-weight: bold;
+    color: gray;
+}
+form input[type="submit"]{
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 0.5rem;
+    width: 100%;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    background: linear-gradient(90deg, rgb(179, 81, 228) 0%, rgb(151, 151, 223) 46%, rgb(48, 212, 245) 100%);
+    cursor: pointer;
+}
+form h2{
+    margin-bottom: 10px;
+}
+.footer{
+    border: 8px solid white;
+    background-color: white;
+    padding: 10px;
+    margin-top: -10px;
+    border-radius: 0 0 5px 5px;
+}
+.footer span{
+    font-weight: bold;
+    font-size: 15px;
+}
+.footer .social-field{
+    border: 2px solid;
+    margin-top: 5px;
+    color: white;
+    width: 100%;
+}
+.footer .social-field.twitter{
+    background: linear-gradient(to right, #56a7f2, #468aca);
+    padding: 0.3rem;
+    border-radius: 4px;
+}
+.footer .social-field.facebook{
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    padding: 0.3rem;
+}
+.footer .social-field a{
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+}
+.footer .social-field a i{
+    padding: 0.2rem;
+    width: 15px;
+    margin: 0 0.5rem;
+}
+@media (max-width: 550px){
+    body{
+        background: linear-gradient(45deg, #8e2de2, #4a00e0);
+        background-repeat: no-repeat;
+        min-height: 100vh;
+        min-width: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    form{
+        margin-right: 10rem;
+    }
+    .footer{
+        margin-right: 10rem;
+    }
+}
